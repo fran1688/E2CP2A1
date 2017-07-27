@@ -10,6 +10,7 @@
 			nav {				
 				float: right;
 				text-align: right;
+				padding-top: 30px;
 			}
 			ul {
 				margin: 0px;
@@ -18,14 +19,16 @@
 			}
 
 			li {
-			  color: white;
+			  color: #A4A4A4;
 			  display: inline-block;
 			  font-family: 'Abel', sans-serif;
-			  font-size: 16px;
+			  font-size: 15px;
 			  font-weight: 300;
 			  margin: 16px 20px;			  
 			}
 			img{
+				padding-top: 30px;
+				padding-left: 30px;
 				width: 15%;				
 			}			
 			
@@ -37,14 +40,14 @@
 			}
 			h3 {
 			  color: #FFF;
-			  font-family: 'Arial', cursive;
+			  font-family: 'Abel', cursive;
 			  font-size: 40px;
 			  padding: 25px 10px;
 			  text-align: center;
 			}
 			h4{
 				color: black;
-				font-family: 'Arial', cursive;
+				font-family: 'Abel', cursive;
 				text-align: center;
 				margin: 0px;
 				font-size: 20px;				
@@ -79,7 +82,35 @@
 			}
 			.direccion{
 				width: 100%;
-				height: 250px;
+				height: 220px;
+			}
+			#parrafo-footer{
+				text-align: left; 
+				margin-left: 50px; 
+				padding-top: 20px; 
+				font-size: 20px;
+			}
+			td{
+				text-align: left;
+				width: 200px;
+			}
+			table{
+				padding-left: 300px;
+				padding-top: 50px;
+				font-family: 'Abel', sans-serif;
+			    font-size: 15px;
+			}
+			#largo{
+				width: 400px;
+			}
+			input{
+				border-radius: 5px;
+			}
+			#enviar{
+				padding: 5px 10px; 
+				background-color: white; 
+				color: black; 
+				border: solid 1px #A4A4A4;
 			}
 
 	</style>
@@ -98,7 +129,7 @@
     
       <h3>COMIENZA UNA NUEVA VIDA Y <br>ÚNETE AL MUNDO <br>TECNOLÓGICO</h3>
       <p>
-      <a href="#" class="btn">Comienza aca</a>
+      <a href="#" class="btn">Comienza acá!</a>
       <a href="#" class="btn" style="background-color: #04B486; padding: 15px 10px;">Mas info</a></p>
    <p>Hay una escasez gigantes de desarrolladores en el mundo y mas aun en latinoamerica, se necesitan mas <br>desarrolladores y Tu puedes ser uno!</p>
   </div>
@@ -122,11 +153,28 @@
     </div>
 
     <div class="direccion">
-    	
+    	<table>
+    	<tr>
+    		<td>CONTACTO</td>
+    		<td>SUSCRIBETE</td>
+    	</tr>
+    	<tr>
+    		<td style="font-weight:bold;">Desafío Latam</td>
+    		<td id="largo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, </td>
+    	</tr>
+    	<tr>
+    		<td>Ezequias Allende 2361</td>
+    		<td> <input class="form-control" type="text" name="nombre" placeholder="Ingresa tu email.."> <a href="#" class="btn" id="enviar">Enviar</a> </td>
+    	</tr>
+    	<tr>
+    		<td>P +56 9 5117 7975</td>
+     	</tr>
+    	</table>
+    	<p style="color: blue; text-align: left; padding-left: 300px;">inscripciones@desafiolatam.com</p>
     </div>
 
     <div class="footer">
-    	<p style="text-align: left; margin-left: 50px; padding-top: 20px; font-size: 20px;"> DESAFIO LATAM 2017 - CURSO FULLSTRAK G9</p>
+    	<p id="parrafo-footer"> DESAFIO LATAM 2017 - CURSO FULLSTRAK G9</p>
     </div>
 
 </body>
